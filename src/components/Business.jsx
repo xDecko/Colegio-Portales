@@ -8,7 +8,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
+      <h4 className="font-poppins font-semibold text-black text-[18px] leading-[23.4px] mb-1">
         {title}
       </h4>
       <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
@@ -21,14 +21,12 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+      <h2 className={styles.heading2} >
+       Colegio Portales <br className="sm:block hidden" /> Santa barbara - Cali
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+        Somos una institución educativa avalada por el ministerio de educación que se enfoca en la formación pre-escolar y basica primaria.
+        Somos una institución educativa avalada por el ministerio de educación que se enfoca en la formación.
       </p>
 
       <Button styles={`mt-10`} />

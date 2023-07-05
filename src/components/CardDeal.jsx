@@ -6,15 +6,13 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Qué la creatividad <br className="sm:block hidden ml-5" /> de tu hijo vuele!
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      En nuestra escuela, la creatividad de tu hijo vuela sin límites. Nuestro enfoque innovador y apasionado estimula su imaginación y habilidades artísticas. 
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button styles={`mt-20`} />
     </div>
 
     <div className={layout.sectionImg}>
