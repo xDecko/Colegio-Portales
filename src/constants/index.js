@@ -1,21 +1,21 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, people04, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Inicio",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Nosotros",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Contacto",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Profesores",
   },
 ];
 
@@ -23,23 +23,30 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Alta calidad",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "El compromiso con la excelencia académica es evidente en ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Seguridad en nuestras instalaciones",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Cumplimos con todos los requisitos de ley establecidos por la secretaría de educación. mollit anim id est laborum.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Educación personalizada",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Formación integral",
+    content:
+      "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
 ];
 
@@ -47,44 +54,57 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Congue eu consequat ac felis donec. Diam sollicitudin tempor id eu nisl nunc mi ipsum. In hac habitasse.",
+    name: "Alberto Muñoz",
+    title: "Rector",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Dignissim diam quis enim lobortis fermentum faucibus. Pretium viverra suspendisse potenti nullam tortor.",
+    name: "Cielo Muñoz",
+    title: "Coordinadora",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Pulvinar mattis nunc sed blandit risus vulputate odio ut enim blandit volutpat. Est pellentesque lobortis feugiat.",
+    name: "Isabel Torres",
+    title: "Profesora",
     img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "Yun arcu cursus euismod quis viverra nibh cras pulvinar mattis. Ac odio tempor orci dapibus ultrices in iaculis.",
+    name: "Ana Rodríguez",
+    title: "Profesora",
+    img: people04,
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Alumnos",
+    value: "70+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Profesores",
+    value: "7",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Aulas de clase",
+    value: "6",
+  },
+  {
+    id: "stats-3",
+    title: "Espacios lúdicos",
+    value: "2",
   },
 ];
 
