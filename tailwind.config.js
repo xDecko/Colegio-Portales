@@ -5,12 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#ffff",
-        secondary: "#00f6ff",
-        dimWhite: "rgba(0, 0, 0, 0.7)",
-        dimBlue: "rgba(0, 0, 0, 0.1)",
-        black: "#A3A3A3",
-        gray: "#8E8E8E",
+        primary: "#ffff",  //No se usa
+        secondary: "#A3A3A3",  //hover footer
+        dimWhite: "rgba(0, 0, 0, 0.6)",  //parrafos
+        dimBlue: "#D32929", //no se usa
+        black: "rgba(0, 0, 0, 0.6)", //Titulos alternativa clara #A3A3A3
+        gray: "rgba(0, 0, 0, 0.7)",  //Footer
       },
       fontFamily: {
         poppins: ["Quicksand", "sans-serif"],

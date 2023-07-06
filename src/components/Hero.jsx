@@ -19,8 +19,8 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[90.8px] leading-[75px] w-full">
           para toda la vida.
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Nuestro equipo de docentes evalua cuidadosamente los programas académicos, las actividades divertidas y la atención individualizada. Queremos asegurarnos de que tu hijo se sienta cómodo y feliz mientras aprende.
+        <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
+          Nuestro equipo de docentes evalua cuidadosamente los programas académicos, las actividades divertidas y la atención individualizada. Nos asegurarnos de que tu hijo se sienta cómodo mientras aprende.
         </p>
       </div>
 

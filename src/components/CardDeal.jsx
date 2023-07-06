@@ -3,13 +3,14 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <section className={layout.section}>
+  <section className={layout.section} >
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Qué la creatividad <br className="sm:block hidden ml-5" /> de tu hijo vuele!
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      En nuestra escuela, la creatividad de tu hijo vuela sin límites. Nuestro enfoque innovador y apasionado estimula su imaginación y habilidades artísticas. 
+      <p className={`${styles.paragraph} max-w-[650px] mt-5`}>
+      En nuestra escuela, la creatividad de tu hijo vuela sin límites. Nuestro enfoque innovador y apasionado estimula su imaginación y habilidades
+      Nuestro enfoque y apasionado estimula su imaginación y habilidades artísticas. 
       </p>
 
       <Button styles={`mt-20`} />

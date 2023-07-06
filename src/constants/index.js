@@ -1,4 +1,4 @@
-import { people01, people02, people03, people04, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, people04, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, robotsito,  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,17 +6,18 @@ export const navLinks = [
     title: "Inicio",
   },
   {
-    id: "features",
+    id: "datos",
     title: "Nosotros",
-  },
-  {
-    id: "product",
-    title: "Contacto",
   },
   {
     id: "clients",
     title: "Profesores",
   },
+  {
+    id: "contacto",
+    title: "Contacto",
+  },
+
 ];
 
 export const features = [
@@ -43,7 +44,7 @@ export const features = [
   },
   {
     id: "feature-4",
-    icon: send,
+    icon: robotsito,
     title: "Formación integral",
     content:
       "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -113,23 +114,19 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Contenido",
+        link: "https://www.google.com",
       },
       {
-        name: "How it Works",
+        name: "Como funciona",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
+        name: "Explorar",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Terminos & Servicios",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
@@ -138,15 +135,11 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
+        name: "Centro de ayuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
+        name: "Sugerencias",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
@@ -154,7 +147,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "Noticias",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
@@ -163,11 +156,11 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
+        name: "Socios",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Trabaja con nosotros",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
